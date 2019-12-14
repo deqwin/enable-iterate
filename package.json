@@ -1,0 +1,31 @@
+{
+  "name": "enable-iterate",
+  "version": "0.0.4",
+  "description": "make javascript object iterable",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deqwin/enable-iterate.git"
+  },
+  "keywords": [
+    "iterator"
+  ],
+  "author": "hankle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deqwin/enable-iterate/issues"
+  },
+  "homepage": "https://github.com/deqwin/enable-iterate#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "rollup": "^1.21.4",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-uglify-es": "0.0.1"
+  }
+}

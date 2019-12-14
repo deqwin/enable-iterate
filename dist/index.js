@@ -1,0 +1,1 @@
+"use strict";function enableIterate(e){return Object.defineProperty(e,Symbol.iterator,{enumerable:!1,value:function(){var e=this,t=Object.keys(e),n=0;return{next:function(){return n++,{value:n>t.length?null:e[t[n-1]],done:n>t.length}}}}}),e}module.exports=enableIterate;
